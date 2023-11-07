@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(images/brian-mcgowan-P1-6ioOcGNU-unsplash.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.header {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-main {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.header-list {
+    display: flex;
+    gap: 96px;
+    list-style: none;
+}
+
+.header-list a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header-nav-link:link,
+.header-nav-link:visited {
+    color: #fff;
+    font-weight: 700;
+}
+
+.header-nav-link:hover,
+.header-nav-link:active {
+    color: yellowgreen;
+    transition: all .3s;
+}
+
+.hero {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 96px;
+    gap: 12px;
+}
+
+.hero-info {
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 3;
+}
+
+.hero-info-1 {
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 6;
+}
+
+.hero-img {
+    max-width: 250vh;
+    height: 250px;
+    border-radius: 6px;
+}
